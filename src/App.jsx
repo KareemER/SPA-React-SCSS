@@ -16,7 +16,7 @@ function App() {
       {path: 'about' , element: <About/> },
       {path: 'portfolio' , element: <Portfolio/> },
       {path: 'contact' , element: <Contact/> },
-      {path: '*' , element: <NotFound/> },
+      {path: '*' , element: <Home/> },
     ]
   }
 ])
